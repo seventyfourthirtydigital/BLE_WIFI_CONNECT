@@ -1,0 +1,14 @@
+{
+  "name": "connectivity-module",
+  "version": "1.0.0",
+  "description": "This is a bluetooth wifi connectivity management tool",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adedayo adebiyi",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bleno": "^0.5.0"
+  }
+}
