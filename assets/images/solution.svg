@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7430 Digital Labs</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <div class="page-wrapper">
-        <h1>7430 Digital Labs</h1>
-        <p>IoT Experimentation In The Wild</p>
-        <p>Developer: Adedayo Adebiyi&nbsp;<a class="pointer" href="https://www.linkedin.com/in/adedayo-adebiyi-06334a37/">
-            <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 455 455" xml:space="preserve">
-<g>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z"/>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M141.522,378.002H74.016V174.906h67.506V378.002z
-		 M107.769,147.186h-0.446C84.678,147.186,70,131.585,70,112.085c0-19.928,15.107-35.087,38.211-35.087
-		c23.109,0,37.31,15.159,37.752,35.087C145.963,131.585,131.32,147.186,107.769,147.186z M385,378.002h-67.524V269.345
-		c0-27.291-9.756-45.92-34.195-45.92c-18.664,0-29.755,12.543-34.641,24.693c-1.776,4.34-2.24,10.373-2.24,16.459v113.426h-67.537
-		c0,0,0.905-184.043,0-203.096H246.4v28.779c8.973-13.807,24.986-33.547,60.856-33.547c44.437,0,77.744,29.02,77.744,91.398V378.002
-		z"/>
-</g>
-</svg>
-</a></p>
-
-        <div class="text-box">
-
-            <h1>The Problem Statement</h1>
-
-            <p>At 7430 Digital Labs we have a platform that manages our Digital Out of Home Signage Media Players. The Media Players are based on custom IoT software deployed on to Raspberry PI Players.</p>
-            <p>Installers in the field always ran into the issue of connecting the Raspberry PIs to the Wifi network of the installation site, the reason being </p>
-            <ul>
-                <li>The Raspberry PI is not aware of the current network it should connect to</li>
-                <li>The Raspberry PI cannot be connected to with keyboard and other input peripherals to enable setting up a Wifi Connection.</li>
-                <li>The Raspberry PI is not connected to a visual display yet.</li>
-            </ul>
-
-        </div>
-
-        <div class="text-box">
-
-            <h1>The Solution</h1>
-            <h2>The BLE Wifi Connect Application</h2>
-            <div class="image-box">
-                <svg
+<svg
    width="500"
    height="200"
    viewBox="0 0 132.29167 52.916668"
@@ -336,21 +287,4 @@ PERIPHERAL"
       </g>
     </g>
   </g>
-                </svg>
-            </div>
-
-            <p> The <strong>BLE Wifi Connect Application</strong> is an application written in node and utilizes the bleno node library and node-wifi library to accomplish two things</p>
-            <p>1. The node-wifi is used in a wifi service that scans for available wireless networks that the Raspberry PI can see. The wifi service has functionality to connect to a wifi network and disconnect, it also can return the ssid of the currently connected to network</p>
-            <p>2. The Application starts a BLE broadcast that exposes 2 writeable properties for the Wifi Network SSID and Password.</p>
-            <p>3. The Application is written to using a tool like Light Blue Explorer, a BLE development testing tool</p>
-            <div class="image-box">
-                <img src="/assets/images/lightblue-screenshot-1.jpeg" alt="screenshot1">
-                <img src="/assets/images/lightblue-screenshot-2.jpeg" alt="screenshot2">
-            </div>
-        </div>
-    </div>
-    <div>
-        
-    </div>
-</body>
-</html>
+</svg>

@@ -9,6 +9,52 @@ html, body{
     height: 100%;
 }
 
-.txt-display-xl{
-font-size: 1em;
+.txt-display-xl {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.pointer > svg{
+    width: 24px;
+    height: 24px;
+}
+.txt-body-xs {
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.text-box > p , .text-box > ul{
+    line-height: 20px;
+    font-size: .8em;
+}
+
+.page-wrapper{
+    width: 75vw;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+img{
+    width: 25%;
+    height: auto;
+    margin-right: 10px;
+}
+.image-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.mt-1 {
+    margin-top: 0;
+}
+.mt-2 {
+    margin-top: 20px;
+}
+.mt-3 {
+    margin-top: 30px;
 }
